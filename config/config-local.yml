@@ -1,0 +1,14 @@
+server:
+  AppVersion: 1.0.0
+  Port: 5050
+  JwtSecretKey: qRT7omj56EDaOePJR8swlkYP5kSOnj2haxovEErhepo=
+
+
+postgres:
+  PostgresqlHost: localhost
+  PostgresqlPort: 5432
+  PostgresqlUser: postgres
+  PostgresqlPassword: postgres
+  PostgresqlDbname: uzinfocom_todo
+  PostgresqlSslmode: false
+  PgDriver: pgx
